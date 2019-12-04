@@ -1,18 +1,17 @@
 import React from 'react';
-// import MyInfo from 'MyInfo'
 import './App.css';
+import MyInfo from './components/MyInfo';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-        </ul>
+        <MainContent />
+        <MyInfo />
       </header>
+      <Footer />
     </div>
   );
 }
