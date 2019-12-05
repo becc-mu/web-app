@@ -44,26 +44,6 @@ function App() {
             phone="(44) 206-1204"
             email="moussky@hotmail.com"
           />
-      <div className="contact-card">
-        <img src="./assets/cat_opt.pn" alt="cat"></img>
-        <h3>Iamsky</h3>
-        <p>Phone: (44) 456-1234</p>
-        <p>Email: iamsky@example.com</p>
-      </div>
-
-      <div className="contact-card">
-        <img src="./assets/cat_opt.pn" alt="cat"></img>
-        <h3>Fluffykins</h3>
-        <p>Phone: (44) 356-1534</p>
-        <p>Email: a.Fluffykins@gmail.com</p>
-      </div>
-
-      <div className="contact-card">
-        <img src="./assets/cat_opt.pn" alt="cat"></img>
-        <h3>Moussky</h3>
-        <p>Phone: (44) 206-1204</p>
-        <p>Email: moussky@hotmail.com</p>
-      </div>
         </div>
       </main>
       <Footer />
