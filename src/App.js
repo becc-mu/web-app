@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-// import Myinfo from './components/MyInfo';
-// import NavBar from './components/NavBar';
 import MainContent from './components/MainContent';
 import TodoList from './components/TodoList';
 import Footer from './components/Footer';
