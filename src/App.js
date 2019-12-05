@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import MainContent from './components/MainContent';
-import TodoList from './components/TodoList';
+import TodoItem from './components/TodoItem';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
@@ -10,9 +10,13 @@ function App() {
     <div className="App">
           <Header />
       <main className="App-content">
-       
         <MainContent />
-        <TodoList />
+        <div className="todo-list">
+          <TodoItem />
+          <TodoItem />
+          <TodoItem />
+          <TodoItem />
+        </div>
       </main>
       <Footer />
     </div>

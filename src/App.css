@@ -1,3 +1,36 @@
+.todo-list {
+  background-color: white;
+  margin: auto auto 30px auto;
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  padding: 30px;
+}
+
+.todo-item {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #282c34;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type=checkbox]:focus {
+  outline: 0;
+}
+
 .flex-container {
   display: flex;
   /* height: 200px;
@@ -9,14 +42,6 @@
   margin: 0;
 }
 
-/* .flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-} */
 .flex-container > .flex-item {
   flex: auto;
 }
@@ -52,15 +77,16 @@ body {
 }
 
 .App-content {
-  background-color: #b8c2d8;
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(105, 101, 101);
 }
+
 
 .App-link {
   color: #09d3ac;
@@ -80,29 +106,3 @@ body {
   justify-self: right;
 }
 
-ul {
-  /* display: inline-block; */
-  /* justify-self: right; */
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-}
-
-li {
-  /* padding-right: 10px;
-  display: inline;
-  text-align: -webkit-match-parent; */
-  float: right;
-}
-
- li a {
-  text-decoration:none;
-  background-color:#328de7; 
-  font-size:18px; 
-  padding: 8px; 
-  display: block; 
-  transition: all 0.5s ease 0s;
-  display: inline-block;
-  justify-self: right;
-}
