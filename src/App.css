@@ -1,3 +1,36 @@
+.flex-container {
+  display: flex;
+  /* height: 200px;
+  align-items: flex-start; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #282c34;
+  min-height: 30vh;
+  margin: 0;
+}
+
+/* .flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+} */
+.flex-container > .flex-item {
+  flex: auto;
+}
+
+.flex-container > .raw-item {
+  background-color: #282c34;
+  justify-content: flex-end;
+  align-items: baseline;
+  width: 100px;
+}
+
+body {
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -10,11 +43,12 @@
   background-color: #282c34;
   min-height: 30vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
+  /* justify-content: flex-end; */
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0;
 }
 
 .App-content {
@@ -32,7 +66,44 @@
   color: #09d3ac;
 }
 
-.App-navbar {
+.navbar {
+  height: 100px;
+  background-color: #333;
   color: #09d3ac;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  justify-self: right;
 }
 
+ul {
+  /* display: inline-block; */
+  /* justify-self: right; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  /* padding-right: 10px;
+  display: inline;
+  text-align: -webkit-match-parent; */
+  float: right;
+}
+
+ li a {
+  float:right;
+  text-decoration:none;
+  background-color:#328de7; 
+  font-size:18px; 
+  padding: 8px; 
+  display: block; 
+  transition: all 0.5s ease 0s;
+  display: inline-block;
+  justify-self: right;
+}
