@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
           <Header />
-      <main className="App-content">    
+      <main className="App-content">
+       
         <MainContent />
         <TodoList />
       </main>
