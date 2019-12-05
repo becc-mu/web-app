@@ -1,4 +1,4 @@
-.todo-list {
+.todo-list .contacts {
   background-color: white;
   margin: auto auto 30px auto;
   width: 50%;
@@ -30,6 +30,7 @@ input[type=checkbox] {
 input[type=checkbox]:focus {
   outline: 0;
 }
+
 
 .flex-container {
   display: flex;
