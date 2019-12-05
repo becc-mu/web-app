@@ -1,35 +1,15 @@
 import React from 'react';
+import Cat from '../assets/Cat.png';
 
-function ContactCard() {
+function ContactCard(props) {
+  console.log(props)
   return(
-    <div className="contacts">
-      <div className="contact-card">
-        <img src="../assets/cat_opt.png/400/267" alt="cat"></img>
-        <h3>Mr Whiskers</h3>
-        <p>Phone: (44) 456-1234</p>
-        <p>Email: m.whiskers@yahoo.com</p>
-      </div>
-
-      <div className="contact-card">
-        <img src="../assets/cat_opt.png/400/267" alt="cat"></img>
-        <h3>Iamsky</h3>
-        <p>Phone: (44) 456-1234</p>
-        <p>Email: iamsky@example.com</p>
-      </div>
-
-      <div className="contact-card">
-        <img src="../assets/cat_opt.png/400/267" alt="cat"></img>
-        <h3>Fluffykins</h3>
-        <p>Phone: (44) 156-1534</p>
-        <p>Email: a.Fluffykins@gmail.com</p>
-      </div>
-
-      <div className="contact-card">
-        <img src="../assets/cat_opt.png/400/267" alt="cat"></img>
-        <h3>Moussky</h3>
-        <p>Phone: (44) 456-1234</p>
-        <p>Email: moussky@hotmail.com</p>
-      </div>
+    <div className="contact-card">
+      {/* <img src={require('../assets/Cat.png')} alt=""/> */}
+      <img src={Cat} alt=""/>
+      <h3>{props.name}</h3>
+      <p>Phone: {props.phone}</p>
+      <p>Email: {props.email}</p>
     </div>
   )
 }
