@@ -16,6 +16,7 @@ function App() {
           <Header />
       <main className="App-content">
         <MainContent />
+        <h2>Todo List</h2>
         <div className="todo-list">
           <TodoItem />
           <TodoItem />
@@ -23,6 +24,7 @@ function App() {
           <TodoItem />
         </div>
         <div className="contacts">
+          <h2>Cats Contact LIst</h2>
           <ContactCard
             contact={{name: "Mr Whiskers", imgUrl: Cat, phone: "(44) 456-1234", email: "m.whiskers@yahoo.com"}}
           />
@@ -37,7 +39,7 @@ function App() {
           />
         </div>
       </main>
-      <Footer />
+        <Footer />
     </div>
   );
 }

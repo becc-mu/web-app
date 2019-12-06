@@ -52,6 +52,7 @@ input[type=checkbox]:focus {
   justify-content: flex-end;
   align-items: baseline;
   width: 100px;
+  margin-right: 1em;
 }
 
 body {
@@ -86,6 +87,13 @@ body {
   justify-content: left;
   font-size: calc(10px + 2vmin);
   color: rgb(105, 101, 101);
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  background-color:  rgb(121, 116, 116);
+  color: whitesmoke;
 }
 
 
