@@ -4,8 +4,7 @@ function TodoList() {
   return(
     <div className="todo-item">
       <input type="checkbox" />
-      <p>Placeholder text</p>
-      
+      <p>Placeholder text</p>  
     </div>
   )
 }

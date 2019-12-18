@@ -1,0 +1,27 @@
+Setup a React app
+Render an App component
+  App should be in its own file
+App should render 5 <Joke /> components
+  Each Joke should receive a "question" prop and a punchline prop
+  and render those hoever you'd like
+
+EXTRA CREDIT:
+Some jokes are only a punch line with no question:
+  E.g.: "It's hard to explain puns to kleptomantics because they always take things literally."
+If you don't pass in a "question" how might you make it only show the punchline instead?
+
+Spend time practicing the style of your content.
+
+
+Instructions 
+
+`mkdir directory-name`
+
+`cd directory-name`
+
+`yarn init`
+
+Installing React and ReactDOM
+We have a directory to hold our project. Now we install React and ReactDOM. Type `yarn add react react-dom`. The add subcommand installs a module in the current project. You can specify more than one module by separating them with a space. Here, we are installing react and react-dom.
+
+
