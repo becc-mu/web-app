@@ -5,11 +5,11 @@ import ContactCard from './ContactCard';
 import Cat from '../../assets/Cat.png'
 import FunnyCat from '../../assets/funnyCat.png'
 import LookingUp from '../../assets/LookingUp.png'
-import vSchool from './vSchoolProducts'
+import productsData from './vSchoolProducts'
 import Products from './Products'
 
 function MainContent() {
-  const vProducts = vSchool.map(item => <Products key={item.id} name={item.name} price={item.price} description={item.description} />)
+  const productsComponent = productsData.map(item => <Products key={item.id} product={item}/>)
   return(
     <main>
       <Greetings />
@@ -23,7 +23,7 @@ function MainContent() {
           <TodoItem />
         </div>
         <div>
-          {vProducts}
+          {productsComponent}
         </div>
         <div className="contacts">
           <h2>Cats Contact LIst</h2>

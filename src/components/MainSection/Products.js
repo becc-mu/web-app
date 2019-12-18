@@ -9,18 +9,18 @@ function Products(props) {
     marginRight: 50,
     maginBottom: 2,
     marginLeft: 200,
- 
-    borderBottom: "solid"
+    // borderBottom: "solid",
+    listStyle: "none"
   }
   return(
     <div>
       <ul style={styles} >
-        <li style={{display: props.name ?  "block" : "none"}} >{props.name}</li>
-        <li style={{display: props.price ?  "block" : "none"}} >{props.price}</li>
-        <li style={{display: props.description ?  "block" : "none"}} >{props.description}</li>
+        <li style={{styles}}><h1>{props.product.name}</h1></li>
+        <li  style={{styles}}>{props.product.price.toLocaleString("en-US", { style: "currency", currency: "USD" })}</li>
+        <li  style={{styles}}>{props.product.description}</li>
       </ul>
     </div>
   )
 }
 
-export default Products 
+export default Products
