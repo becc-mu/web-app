@@ -7,8 +7,10 @@ import FunnyCat from '../../assets/funnyCat.png'
 import LookingUp from '../../assets/LookingUp.png'
 import productsData from './vSchoolProducts'
 import Products from './Products'
+import todosData from './todosData'
 
 function MainContent() {
+  const todosComponent = todosData.map(item => <TodoItem key={item.id} todoItem={item} />)
   const productsComponent = productsData.map(item => <Products key={item.id} product={item}/>)
   return(
     <main>
@@ -17,10 +19,11 @@ function MainContent() {
       <p>It is a simple web app I have created using React</p>
       <h2>Todo List</h2>
         <div className="todo-list">
+          {todosComponent}
+          {/* <TodoItem />
           <TodoItem />
           <TodoItem />
-          <TodoItem />
-          <TodoItem />
+          <TodoItem /> */}
         </div>
         <div>
           {productsComponent}
