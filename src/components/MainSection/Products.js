@@ -7,9 +7,9 @@ function Products(props) {
     textAlign: "left",
     marginTop: "auto",
     marginRight: 50,
-    maginBottom: 2,
+    marginBottom: 2,
     marginLeft: 200,
-    // borderBottom: "solid",
+    borderBottom: "solid",
     listStyle: "none"
   }
   return(

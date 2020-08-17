@@ -1,11 +1,19 @@
 import React from 'react';
+import todosData from './todosData';
+import TodoItem from './TodoItem';
 
-function TodoList() {
+import styles from './styles.css'
+
+const TodoList = () => {
+
   return(
-    <div className="todo-item">
-      <input type="checkbox" />
-      <p>Placeholder text</p>  
-    </div>
+      <ul className={styles['todo-list']}>
+        <li>
+      {todosData.map(item => <TodoItem key={item.id} text={item.text} />)}
+        </li>
+      </ul>
+
+
   )
 }
 

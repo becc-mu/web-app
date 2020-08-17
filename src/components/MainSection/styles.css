@@ -1,0 +1,17 @@
+.todo-list {
+  justify-content: left;
+  padding-left: unset;
+  text-align: left;
+  margin-top: auto;
+  margin-right: 50;
+  margin-bottom: 2;
+  margin-left: 200;
+  border-bottom: solid;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  width: 90%;
+  
+}

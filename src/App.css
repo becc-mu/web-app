@@ -1,12 +1,13 @@
 .todo-list {
-  background-color: white;
+  background-color: #e2e7b3;
   margin: auto auto 30px auto;
-  width: 50%;
   display:flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid #efefef;
   padding: 30px;
+  margin-right: 50px;
+  margin-left: 200px;
 }
 
 .todo-item {
@@ -17,9 +18,10 @@
   width: 70%;
   border-bottom: 1px solid #cecece;
   font-family: Roboto, sans-serif;
-  font-weight: 100;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 1.5rem;
   color: #282c34;
+  
 }
 
 input[type=checkbox] {
@@ -31,29 +33,37 @@ input[type=checkbox]:focus {
   outline: 0;
 }
 
-
+.header-container {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #006699;
+  margin-bottom: 0;
+  min-height: 7rem;
+  margin-top: 0;
+  padding-top: 1.7rem;
+}
 .flex-container {
   display: flex;
   /* height: 200px;
   align-items: flex-start; */
   font-size: calc(10px + 2vmin);
   color: white;
-  background-color: #282c34;
-  min-height: 30vh;
-  margin: 0;
+  background-color: #006699;
+  /* min-height: 30vh; */
+  /* margin: 0; */
 }
 
 .flex-container > .flex-item {
   flex: auto;
 }
 
-.flex-container > .raw-item {
+/* .flex-container > .raw-item {
   background-color: #282c34;
   justify-content: flex-end;
   align-items: baseline;
   width: 100px;
   margin-right: 1em;
-}
+} */
 
 body {
   margin: 0;
@@ -68,7 +78,7 @@ body {
 
 .App-header, .App-content {
   background-color: #282c34;
-  min-height: 30vh;
+  /* min-height: 30vh; */
   display: flex;
   flex-direction: row;
   align-items: stretch;
@@ -114,4 +124,26 @@ body {
   list-style: none;
   justify-self: right;
 }
+
+#nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc; }
+
+#nav li {
+  float: right; }
+
+#nav li a {
+        display: block;
+        padding: 8px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #069;
+        border-right: 1px solid #ccc; }
+
 
