@@ -18,8 +18,8 @@ const contactData = [
 {
     id: 3,
     name: "Fluffykins",
-    imgUrl: require("./assets/lookingUp.png"),
-    image: "lookingUp.png",
+    imgUrl: require("./assets/LookingUp.png"),
+    image: "LookingUp.png",
     phone: "(44) 356-1534",
     email: "a.Fluffykins@gmail.com"
 },
