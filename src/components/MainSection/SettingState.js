@@ -1,28 +1,28 @@
-import React from 'react'
+import React from "react";
 
 class SettingState extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
-      count: 0
-    }
-    this.handleClick = this.handleClick.bind(this)
+      count: 0,
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
-    this.setState(prevState => {
+    this.setState((prevState) => {
       return {
-        count: prevState.count + 1
-      }
-    })
+        count: prevState.count + 1,
+      };
+    });
   }
   render() {
     return (
       <div>
         <h1>{this.state.count}</h1>
-        <button onClick={this.handleClick} >Click!</button>
+        <button onClick={this.handleClick}>Click!</button>
       </div>
-    )
+    );
   }
 }
 
-export default SettingState
+export default SettingState;

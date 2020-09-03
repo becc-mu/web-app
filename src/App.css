@@ -1,7 +1,7 @@
 .todo-list {
   background-color: #e2e7b3;
   margin: auto auto 30px auto;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid #efefef;
@@ -21,15 +21,14 @@
   font-weight: 400;
   font-size: 1.5rem;
   color: #282c34;
-  
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   margin-right: 10px;
   font-size: 30px;
 }
 
-input[type=checkbox]:focus {
+input[type="checkbox"]:focus {
   outline: 0;
 }
 
@@ -76,7 +75,8 @@ body {
   height: 40vmin;
 }
 
-.App-header, .App-content {
+.App-header,
+.App-content {
   background-color: #282c34;
   /* min-height: 30vh; */
   display: flex;
@@ -102,10 +102,9 @@ body {
 .App-footer {
   display: flex;
   flex-direction: column;
-  background-color:  rgb(121, 116, 116);
+  background-color: rgb(121, 116, 116);
   color: whitesmoke;
 }
-
 
 .App-link {
   color: #09d3ac;
@@ -133,17 +132,18 @@ body {
   list-style: none;
   background-color: #f2f2f2;
   border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc; }
+  border-top: 1px solid #ccc;
+}
 
 #nav li {
-  float: right; }
+  float: right;
+}
 
 #nav li a {
-        display: block;
-        padding: 8px 15px;
-        text-decoration: none;
-        font-weight: bold;
-        color: #069;
-        border-right: 1px solid #ccc; }
-
-
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #069;
+  border-right: 1px solid #ccc;
+}
