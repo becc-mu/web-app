@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function ContactCard(props) {
   return (
@@ -12,7 +12,7 @@ function ContactCard(props) {
       <p>Phone: {props.contact.phone}</p>
       <p>Email: {props.contact.email}</p>
     </div>
-  );
+  )
 }
 
-export default ContactCard;
+export default ContactCard

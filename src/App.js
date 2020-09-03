@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import "./App.css";
-import MainContent from "./components/MainSection/MainContent";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import React, { Component } from 'react'
+import './App.css'
+import MainContent from './components/MainSection/MainContent'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 class App extends Component {
   render() {
@@ -12,8 +12,8 @@ class App extends Component {
         <MainContent />
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

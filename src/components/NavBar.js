@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import "../App.css";
-import { BrowserRouter, Link } from "react-router-dom";
+import React, { Component } from 'react'
+import '../App.css'
+import { BrowserRouter, Link } from 'react-router-dom'
 // import Route from 'react-router-dom/Route'
 // import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory, IndexRoute } from "react-router";
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 
-import Greetings from "./MainSection/Greetings";
-import TodoList from "./MainSection/TodoList";
+import Greetings from './MainSection/Greetings'
+import TodoList from './MainSection/TodoList'
 
 class NavBar extends Component {
   render() {
@@ -41,7 +41,7 @@ class NavBar extends Component {
                   <h2>Welcome to my Portfolio page</h2>
                   <p>It is a simple web app I have created using React</p>
                 </div>
-              );
+              )
             }}
           />
         </div>
@@ -51,13 +51,13 @@ class NavBar extends Component {
             exact
             strict
             render={() => {
-              return <TodoList />;
+              return <TodoList />
             }}
           />
         </div>
       </BrowserRouter>
-    );
+    )
   }
 }
 
-export default NavBar;
+export default NavBar

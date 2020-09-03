@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
 const TodoItem = (props) => {
   // console.log(props)
-  const [checked, setChecked] = useState(false);
-  const [completed, setCompleted] = useState(false);
+  const [checked, setChecked] = useState(false)
+  const [completed, setCompleted] = useState(false)
   return (
     <div className="todo-item">
       <input
@@ -15,7 +15,7 @@ const TodoItem = (props) => {
       />
       {props.text}
     </div>
-  );
-};
+  )
+}
 
-export default TodoItem;
+export default TodoItem

@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react'
 
 function HandlingEvents() {
   function handleClick() {
-    console.log("I was clicked");
+    console.log('I was clicked')
   }
 
   return (
     <div>
       <img
-        onMouseOver={() => console.log("Hovered!")}
+        onMouseOver={() => console.log('Hovered!')}
         src="https://www.fillmurray.com/200/100"
         alt=""
       />
@@ -16,7 +16,7 @@ function HandlingEvents() {
       <br />
       <button onClick={handleClick}>Click me</button>
     </div>
-  );
+  )
 }
 
-export default HandlingEvents;
+export default HandlingEvents

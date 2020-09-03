@@ -1,3 +1,12 @@
 {
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "printWidth": 80,
+  "useTabs": 2,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "formatOnSave": true,
+  "diffEditor.ignoreTrimWhitespace": false
 }
